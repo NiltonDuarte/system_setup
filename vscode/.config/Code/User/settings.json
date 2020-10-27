@@ -1,0 +1,36 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "files.autoSave": "afterDelay",
+    "extensions.ignoreRecommendations": false,
+    "python.linting.flake8Enabled": true,
+    "editor.wordWrap": "on",
+    "git.autofetch": true,
+    "tabnine.experimentalAutoImports": true,
+    "window.zoomLevel": -1,
+    "cSpell.userWords": [
+        "GBTREE",
+        "Keras",
+        "Numpy",
+        "bigquery",
+        "bynode",
+        "bytree",
+        "dataframe",
+        "eval",
+        "fprint",
+        "getenv",
+        "mlflow"
+    ],
+    "cSpell.enabled": true,
+    "cSpell.language": "en,pt-BR",
+    "cSpell.enableFiletypes": [
+        "dockerfile",
+        "jupyter",
+        "sql"
+    ],
+    "python.formatting.autopep8Args": [
+        "--ignore",
+        "E402"
+    ],
+    "git.confirmSync": false,
+    "workbench.colorTheme": "One Dark Pro"
+}
