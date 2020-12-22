@@ -104,6 +104,8 @@ alias lah='ls -lah'
 #To Trash alias
 alias rm='echo Use tt or full path /bin/rm'
 alias tt='trash'
+#pip to pip3
+alias pip='pip3'
 alias untar='tar -zxvf '
 alias getpass='openssl rand -base64 20'
 alias mount='mount | column -t'

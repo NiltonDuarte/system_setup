@@ -14,11 +14,20 @@
         "bigquery",
         "bynode",
         "bytree",
+        "cloudbuild",
+        "cloudsdktool",
+        "comissao",
         "dataframe",
+        "entrypoint",
         "eval",
         "fprint",
+        "gcloud",
         "getenv",
-        "mlflow"
+        "groupby",
+        "mlflow",
+        "pylint",
+        "pytest",
+        "southamerica"
     ],
     "cSpell.enabled": true,
     "cSpell.language": "en,pt-BR",
@@ -33,5 +42,6 @@
     ],
     "git.confirmSync": false,
     "workbench.colorTheme": "One Dark Pro",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "explorer.confirmDelete": false
 }

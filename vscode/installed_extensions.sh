@@ -7,9 +7,12 @@ code --install-extension GrapeCity.gc-excelviewer
 code --install-extension humao.rest-client
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-python.python
+code --install-extension ms-toolsai.jupyter
+code --install-extension ms-vscode-remote.remote-containers
 code --install-extension njpwerner.autodocstring
 code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension streetsidesoftware.code-spell-checker-portuguese-brazilian
 code --install-extension TabNine.tabnine-vscode
+code --install-extension tht13.html-preview-vscode
 code --install-extension vscode-icons-team.vscode-icons
 code --install-extension zhuangtongfa.material-theme
