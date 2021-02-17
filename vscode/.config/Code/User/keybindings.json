@@ -62,5 +62,9 @@
         "key": "ctrl+k t",
         "command": "-notebook.cell.expandCellOutput",
         "when": "notebookCellListFocused && notebookCellOutputIsCollapsed"
+    },
+    {
+        "key": "ctrl+e ctrl+r",
+        "command": "sqltools.executeCurrentQuery"
     }
 ]

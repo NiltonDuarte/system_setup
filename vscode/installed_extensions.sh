@@ -9,6 +9,8 @@ code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-python.python
 code --install-extension ms-toolsai.jupyter
 code --install-extension ms-vscode-remote.remote-containers
+code --install-extension mtxr.sqltools
+code --install-extension mtxr.sqltools-driver-pg
 code --install-extension njpwerner.autodocstring
 code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension streetsidesoftware.code-spell-checker-portuguese-brazilian
