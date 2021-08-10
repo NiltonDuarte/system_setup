@@ -10,12 +10,16 @@
         "GBTREE",
         "Keras",
         "Numpy",
+        "accessibilities",
+        "Struct",
+        "WORKDIR",
         "bigquery",
         "bynode",
         "bytree",
         "cloudbuild",
         "cloudsdktool",
         "comissao",
+        "databricks",
         "dataframe",
         "dialogflowcx",
         "entrypoint",
@@ -24,10 +28,20 @@
         "gcloud",
         "getenv",
         "groupby",
+        "inplace",
+        "inversed",
+        "localtime",
         "mlflow",
+        "ortools",
         "pylint",
+        "openjdk",
+        "pylint",
+        "pyspark",
         "pytest",
-        "southamerica"
+        "pywrapcp",
+        "sklearn",
+        "southamerica",
+        "zoneinfo"
     ],
     "cSpell.enabled": true,
     "cSpell.language": "en,pt-BR",
@@ -38,14 +52,47 @@
     ],
     "python.formatting.autopep8Args": [
         "--ignore",
-        "E402"
+        "E402",
+        "--max-line-length=120"
+    ],
+    "python.linting.flake8Args": [
+        "--max-line-length=120"
     ],
     "git.confirmSync": false,
     "workbench.colorTheme": "One Dark Pro",
+    "workbench.editor.untitled.hint": "hidden",
     "editor.formatOnSave": true,
     "explorer.confirmDelete": false,
     "git.suggestSmartCommit": false,
     "vsicons.dontShowNewVersionMessage": true,
     "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "python.showStartPage": false,
+    "settingsSync.ignoredSettings": [
+        "databricks.connection.default.apiRootUrl",
+        "databricks.connection.default.displayName",
+        "databricks.connection.default.localSyncFolder",
+        "databricks.connection.default.localSyncSubfolders",
+        "databricks.connection.default.personalAccessToken",
+        "databricks.connection.default.exportFormats",
+        "-python.venvPath"
+    ],
+    "databricks.connections": [],
+    "databricks.lastActiveConnection": "ADB-ID-HML",
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false
+    },
+    "python.venvPath": "~/.cache/pypoetry/virtualenvs/",
     "window.zoomLevel": -1
 }
