@@ -7,40 +7,47 @@
     "git.autofetch": true,
     "tabnine.experimentalAutoImports": true,
     "cSpell.userWords": [
-        "GBTREE",
-        "Keras",
-        "Numpy",
         "accessibilities",
-        "Struct",
-        "WORKDIR",
         "bigquery",
         "bynode",
         "bytree",
         "cloudbuild",
         "cloudsdktool",
         "comissao",
+        "Cumul",
         "databricks",
         "dataframe",
         "dialogflowcx",
+        "dotz",
         "entrypoint",
         "eval",
+        "Finalizer",
         "fprint",
+        "FUNCS",
+        "GBTREE",
         "gcloud",
         "getenv",
         "groupby",
         "inplace",
         "inversed",
+        "Keras",
+        "kubernetes",
         "localtime",
+        "mirakl",
         "mlflow",
-        "ortools",
-        "pylint",
+        "noqa",
+        "Numpy",
         "openjdk",
+        "ortools",
         "pylint",
         "pyspark",
         "pytest",
         "pywrapcp",
+        "reponsys",
         "sklearn",
         "southamerica",
+        "Struct",
+        "WORKDIR",
         "zoneinfo"
     ],
     "cSpell.enabled": true,
@@ -74,6 +81,7 @@
         "jupyter-notebook": "left"
     },
     "python.showStartPage": false,
+    "databricks.connection.default.localSyncFolder": "/home/niltonduarte/workspace/databricks",
     "settingsSync.ignoredSettings": [
         "databricks.connection.default.apiRootUrl",
         "databricks.connection.default.displayName",
@@ -81,10 +89,12 @@
         "databricks.connection.default.localSyncSubfolders",
         "databricks.connection.default.personalAccessToken",
         "databricks.connection.default.exportFormats",
-        "-python.venvPath"
+        "-python.venvPath",
+        "git.rebaseWhenSync"
     ],
     "databricks.connections": [],
     "databricks.lastActiveConnection": "ADB-ID-HML",
+    "databricks.connection.default.displayName": "ADB-ID-HML",
     "editor.acceptSuggestionOnEnter": "off",
     "editor.inlineSuggest.enabled": true,
     "github.copilot.enable": {
@@ -94,5 +104,9 @@
         "markdown": false
     },
     "python.venvPath": "~/.cache/pypoetry/virtualenvs/",
-    "window.zoomLevel": -1
+    "git.rebaseWhenSync": true,
+    "rest-client.defaultHeaders": {
+    
+        "User-Agent": "vscode-restclient"
+    }
 }
