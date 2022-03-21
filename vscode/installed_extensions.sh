@@ -1,6 +1,8 @@
+code --install-extension adamhartford.vscode-base64
 code --install-extension adpyke.vscode-sql-formatter
 code --install-extension alefragnani.Bookmarks
-code --install-extension CoenraadS.bracket-pair-colorizer-2
+code --install-extension alefragnani.project-manager
+code --install-extension bierner.markdown-mermaid
 code --install-extension donjayamanne.githistory
 code --install-extension dvirtz.parquet-viewer
 code --install-extension eamodio.gitlens
@@ -9,8 +11,7 @@ code --install-extension humao.rest-client
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-python.python
 code --install-extension ms-python.vscode-pylance
-code --install-extension ms-toolsai.jupyter
-code --install-extension ms-toolsai.jupyter-renderers
+code --install-extension ms-vscode-remote.remote-containers
 code --install-extension mtxr.sqltools
 code --install-extension njpwerner.autodocstring
 code --install-extension redhat.vscode-xml

@@ -5,9 +5,9 @@
     "python.linting.flake8Enabled": true,
     "editor.wordWrap": "on",
     "git.autofetch": true,
-    "tabnine.experimentalAutoImports": true,
     "cSpell.userWords": [
         "accessibilities",
+        "arpack",
         "bigquery",
         "bynode",
         "bytree",
@@ -17,37 +17,57 @@
         "Cumul",
         "databricks",
         "dataframe",
+        "debussy",
+        "deequ",
+        "deid",
+        "deidentify",
+        "dejson",
+        "dequu",
         "dialogflowcx",
+        "dont",
         "dotz",
         "entrypoint",
         "eval",
+        "Feux",
         "Finalizer",
         "fprint",
         "FUNCS",
         "GBTREE",
         "gcloud",
         "getenv",
+        "goog",
+        "googleapis",
         "groupby",
+        "howto",
         "inplace",
         "inversed",
+        "jdbc",
+        "jsonl",
         "Keras",
         "kubernetes",
         "localtime",
         "mirakl",
         "mlflow",
+        "mssql",
+        "mysql",
         "noqa",
         "Numpy",
         "openjdk",
         "ortools",
+        "protobuf",
+        "pydeequ",
         "pylint",
         "pyspark",
         "pytest",
         "pywrapcp",
+        "rdbms",
         "reponsys",
         "sklearn",
         "southamerica",
         "Struct",
+        "taskmixin",
         "WORKDIR",
+        "xcom",
         "zoneinfo"
     ],
     "cSpell.enabled": true,
@@ -80,8 +100,6 @@
         "default": "right",
         "jupyter-notebook": "left"
     },
-    "python.showStartPage": false,
-    "databricks.connection.default.localSyncFolder": "/home/niltonduarte/workspace/databricks",
     "settingsSync.ignoredSettings": [
         "databricks.connection.default.apiRootUrl",
         "databricks.connection.default.displayName",
@@ -92,9 +110,6 @@
         "-python.venvPath",
         "git.rebaseWhenSync"
     ],
-    "databricks.connections": [],
-    "databricks.lastActiveConnection": "ADB-ID-HML",
-    "databricks.connection.default.displayName": "ADB-ID-HML",
     "editor.acceptSuggestionOnEnter": "off",
     "editor.inlineSuggest.enabled": true,
     "github.copilot.enable": {
@@ -104,9 +119,21 @@
         "markdown": false
     },
     "python.venvPath": "~/.cache/pypoetry/virtualenvs/",
-    "git.rebaseWhenSync": true,
     "rest-client.defaultHeaders": {
-    
         "User-Agent": "vscode-restclient"
-    }
+    },
+    "explorer.confirmDragAndDrop": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "projectManager.git.baseFolders": [
+        "~/workspace/git"
+    ],
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "files.exclude": {
+        ".pytest_cache": true,
+        ".vscode": true,
+        "*.egg-info": true,
+        "**/__pycache__": true
+    },
+    "python.linting.mypyEnabled": true
 }
