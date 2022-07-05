@@ -1,3 +1,12 @@
+
+
+export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
+export SPARK_HOME=~/workspace/spark/spark
+export PATH=$PATH:$SPARK_HOME/bin
+export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH
+export PYSPARK_PYTHON=python3
+export PATH=$PATH:$JAVA_HOME/jre/bin
+
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:$PATH
 

@@ -7,11 +7,14 @@ code --install-extension donjayamanne.githistory
 code --install-extension dvirtz.parquet-viewer
 code --install-extension eamodio.gitlens
 code --install-extension GitHub.copilot
+code --install-extension hashicorp.terraform
 code --install-extension humao.rest-client
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-python.python
 code --install-extension ms-python.vscode-pylance
 code --install-extension ms-vscode-remote.remote-containers
+code --install-extension ms-vscode.makefile-tools
+code --install-extension ms-vscode.remote-repositories
 code --install-extension mtxr.sqltools
 code --install-extension njpwerner.autodocstring
 code --install-extension redhat.vscode-xml

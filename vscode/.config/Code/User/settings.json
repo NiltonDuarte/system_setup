@@ -11,12 +11,16 @@
         "bigquery",
         "bynode",
         "bytree",
+        "childrens",
         "cloudbuild",
         "cloudsdktool",
+        "cnopts",
         "comissao",
         "Cumul",
         "databricks",
+        "dataclass",
         "dataframe",
+        "datawarehouse",
         "debussy",
         "deequ",
         "deid",
@@ -45,6 +49,7 @@
         "jsonl",
         "Keras",
         "kubernetes",
+        "lakehouse",
         "localtime",
         "mirakl",
         "mlflow",
@@ -55,8 +60,10 @@
         "openjdk",
         "ortools",
         "protobuf",
+        "pyarrow",
         "pydeequ",
         "pylint",
+        "pysftp",
         "pyspark",
         "pytest",
         "pywrapcp",
@@ -135,5 +142,6 @@
         "*.egg-info": true,
         "**/__pycache__": true
     },
-    "python.linting.mypyEnabled": true
+    "workbench.startupEditor": "none",
+    "gitlens.hovers.currentLine.over": "line"
 }
