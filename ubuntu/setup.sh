@@ -1,8 +1,12 @@
+
+#!/bin/sh
+sudo apt install -y python3-pip git curl zsh
+
 # click on icon to minimize
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 alias pip pip3
 
-sudo apt install -y git curl zsh
+
 
 chsh -s $(which zsh)
 # usermod -s /usr/bin/zsh $USER
